@@ -11,6 +11,8 @@ The following Open Source Models are currently being used, both can be easily tw
 - Chat Model: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct 
 - Embeddings Model: https://huggingface.co/model-embeddings/multi-qa-mpnet-base-dot-v1 
 
+For detailed deep dive on this project and RAG architecture, feel free to read [this](https://medium.com/@samiur1998/creating-an-ai-powered-chatbot-using-llms-rag-langchain-and-python-4903fd786c0b) article.
+
 # 🛠️ Setup & Usage
 In order to use this application a HuggingFace API Key is necessary.
 
@@ -24,7 +26,7 @@ Once the API Key has been added to the environment variables, users may begin us
 
 Additionally the Application downloads a local verison of the embeddings model. This makes the embedding process alot faster and cost-effective. This is created in a local folder called **embeddings_models**. It is recommended for users to delete this folder after usage.
 
-In order to use the application, run the following commands:
+In order to use the application please install Python and then run the following commands:
 ```
 python3 -m venv venv (Creates a Virtual Environment)
 source venv/bin/activate (Activates Virtual Environment)
